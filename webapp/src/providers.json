@@ -1,0 +1,62 @@
+[
+    {
+        "provider_name": "PeerTube",
+        "provider_url": "http:\/\/xyz.com",
+        "endpoints": [
+            {
+		"schemes": [
+                    "https:\/\/xyz.com\/w\/*",
+                    "https:\/\/xyz.com\/video\/*"
+                ],
+                "url": "https:\/\/xyz.com\/services\/oembed",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "Dailymotion",
+        "provider_url": "https:\/\/www.dailymotion.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "https:\/\/www.dailymotion.com\/video\/*"
+                ],
+                "url": "https:\/\/www.dailymotion.com\/services\/oembed",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "Vimeo",
+        "provider_url": "https:\/\/vimeo.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "https:\/\/vimeo.com\/*",
+                    "https:\/\/vimeo.com\/album\/*\/video\/*",
+                    "https:\/\/vimeo.com\/channels\/*\/*",
+                    "https:\/\/vimeo.com\/groups\/*\/videos\/*",
+                    "https:\/\/vimeo.com\/ondemand\/*\/*",
+                    "https:\/\/player.vimeo.com\/video\/*"
+                ],
+                "url": "https:\/\/vimeo.com\/api\/oembed.{format}",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "YouTube",
+        "provider_url": "https:\/\/www.youtube.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "https:\/\/*.youtube.com\/watch*",
+                    "https:\/\/*.youtube.com\/v\/*",
+                    "https:\/\/youtu.be\/*"
+                ],
+                "url": "https:\/\/www.youtube.com\/oembed",
+                "discovery": true
+            }
+        ]
+    }
+]

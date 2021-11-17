@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Dailymotion",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "name": "PeerTube",
+    "width": 560,
+    "height": 315
+  },
+  {
+    "name": "Vimeo",
+    "width": 480,
+    "height": 270
+  },
+  {
+    "name": "YouTube",
+    "width": 200,
+    "height": 150
+  }
+]

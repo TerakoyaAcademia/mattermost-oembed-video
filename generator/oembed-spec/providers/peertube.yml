@@ -1,0 +1,13 @@
+---
+- provider_name: PeerTube
+  provider_url: https://xyz.com
+  endpoints:
+    - schemes:
+      - https://xyz.com/w
+      - https://xyz.com/w/*
+      - https://xyz.com/api/v1/videos/*
+      url: https://xyz.com/services/oembed
+      example_urls:
+      - https://xyz.com/services/oembed?url=https://xyz.com/w/wD3aZH2o3woknU3s1
+      discovery: true
+...
